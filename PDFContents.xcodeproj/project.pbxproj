@@ -21,6 +21,10 @@
 		35D4C1E618851AB100D9C495 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D4C1C818851AB100D9C495 /* UIKit.framework */; };
 		35D4C1EE18851AB100D9C495 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35D4C1EC18851AB100D9C495 /* InfoPlist.strings */; };
 		35D4C1F018851AB100D9C495 /* PDFContentsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D4C1EF18851AB100D9C495 /* PDFContentsTests.m */; };
+		35D4C23E18851D8600D9C495 /* ruby.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 35D4C23D18851D8600D9C495 /* ruby.pdf */; };
+		35D4C24118851DA100D9C495 /* VoyeurNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D4C24018851DA100D9C495 /* VoyeurNode.m */; };
+		35D4C24518852BD900D9C495 /* ContentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D4C24318852BD900D9C495 /* ContentsViewController.m */; };
+		35D4C248188534E100D9C495 /* cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 35D4C247188534E100D9C495 /* cover.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,12 @@
 		35D4C1EB18851AB100D9C495 /* PDFContentsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PDFContentsTests-Info.plist"; sourceTree = "<group>"; };
 		35D4C1ED18851AB100D9C495 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		35D4C1EF18851AB100D9C495 /* PDFContentsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFContentsTests.m; sourceTree = "<group>"; };
+		35D4C23D18851D8600D9C495 /* ruby.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ruby.pdf; sourceTree = "<group>"; };
+		35D4C23F18851DA100D9C495 /* VoyeurNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoyeurNode.h; sourceTree = "<group>"; };
+		35D4C24018851DA100D9C495 /* VoyeurNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoyeurNode.m; sourceTree = "<group>"; };
+		35D4C24218852BD900D9C495 /* ContentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentsViewController.h; sourceTree = "<group>"; };
+		35D4C24318852BD900D9C495 /* ContentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentsViewController.m; sourceTree = "<group>"; };
+		35D4C247188534E100D9C495 /* cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cover.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +127,13 @@
 				35D4C1D618851AB100D9C495 /* Main.storyboard */,
 				35D4C1D918851AB100D9C495 /* ViewController.h */,
 				35D4C1DA18851AB100D9C495 /* ViewController.m */,
+				35D4C24218852BD900D9C495 /* ContentsViewController.h */,
+				35D4C24318852BD900D9C495 /* ContentsViewController.m */,
 				35D4C1DC18851AB100D9C495 /* Images.xcassets */,
+				35D4C23F18851DA100D9C495 /* VoyeurNode.h */,
+				35D4C24018851DA100D9C495 /* VoyeurNode.m */,
+				35D4C23D18851D8600D9C495 /* ruby.pdf */,
+				35D4C247188534E100D9C495 /* cover.jpg */,
 				35D4C1CB18851AB100D9C495 /* Supporting Files */,
 			);
 			path = PDFContents;
@@ -230,6 +246,8 @@
 			files = (
 				35D4C1DD18851AB100D9C495 /* Images.xcassets in Resources */,
 				35D4C1CF18851AB100D9C495 /* InfoPlist.strings in Resources */,
+				35D4C23E18851D8600D9C495 /* ruby.pdf in Resources */,
+				35D4C248188534E100D9C495 /* cover.jpg in Resources */,
 				35D4C1D818851AB100D9C495 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,7 +269,9 @@
 			files = (
 				35D4C1DB18851AB100D9C495 /* ViewController.m in Sources */,
 				35D4C1D518851AB100D9C495 /* AppDelegate.m in Sources */,
+				35D4C24518852BD900D9C495 /* ContentsViewController.m in Sources */,
 				35D4C1D118851AB100D9C495 /* main.m in Sources */,
+				35D4C24118851DA100D9C495 /* VoyeurNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ContentsViewController.h
 //  PDFContents
 //
 //  Created by Leon on 1/14/14.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ContentsViewController : UITableViewController
 
-- (IBAction)showContentsTapped:(id)sender;
+@property (nonatomic, strong) NSArray *contents;
 
 @end
